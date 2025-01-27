@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <article class="container">
+      <div class="logo-slide">
+        <img src="logos/boss.svg" />
+        <img src="logos/dolce.svg" />
+        <img src="logos/ferrari.svg" />
+        <img src="logos/forbes.svg" />
+        <img src="logos/netflix.svg" />
+        <img src="logos/puma.svg" />
+        <img src="logos/sony.svg" />
+        <img src="logos/uber.svg" />
+        <img src="logos/nokia.svg" />
+      </div>
+    </article>
+    <script>
+      const duplicate = document.querySelector(".logo-slide").cloneNode(true);
+      document.querySelector(".container").appendChild(duplicate);
+    </script>
+  </body>
+</html>
